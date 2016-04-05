@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/tela4">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/button7"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="meetup"
+        android:background="@drawable/meetup" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/button8"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="youtube"
+        android:background="@drawable/youtube" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/button9"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="sair2"
+        android:background="@drawable/botao_sair" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/button10"
+        android:onClick="sobre"
+        android:background="@drawable/sobre"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/button11"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="voltar"
+        android:background="@drawable/voltar" />
+</RelativeLayout>
